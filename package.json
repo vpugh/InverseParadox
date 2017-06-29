@@ -1,0 +1,32 @@
+{
+  "name": "inverseparadox",
+  "version": "1.0.0",
+  "description": "Development Test for job application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpugh/InverseParadox.git"
+  },
+  "keywords": [
+    "dev",
+    "test"
+  ],
+  "author": "Victoria Pugh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vpugh/InverseParadox/issues"
+  },
+  "homepage": "https://github.com/vpugh/InverseParadox#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

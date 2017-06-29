@@ -1,0 +1,17 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    &:after,
+    &:before {
+        display: table;
+        clear: both;
+        content: "";
+    }
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
