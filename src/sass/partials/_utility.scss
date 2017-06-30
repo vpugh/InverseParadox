@@ -1,5 +1,5 @@
 .container {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     &:after,
     &:before {
@@ -14,4 +14,23 @@
 }
 .margin-bottom-0 {
     margin-bottom: 0;
+}
+
+.light-blue {
+    color: #51c5d6;
+}
+.white {
+    color: #fff;
+}
+
+.slashes {
+    &:after {
+        content: "";
+        background-image: url("../images/slashes.jpg");
+        background-repeat: no-repeat;
+        display: block;
+        height: 14px;
+        width: 45px;
+        margin: 48px auto 0 auto;
+    }
 }

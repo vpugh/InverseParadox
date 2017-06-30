@@ -1,10 +1,67 @@
 .navigation--topbar {
-    height: 37px;
+    height: 36px;
     border-bottom: 1px solid #325994;
     background: linear-gradient(to top, #4574b9 0%, #729dd1 100%);
+    .container {
+        position: relative;
+    }
 }
 .navigation--container {
-    height: 128px;
+    height: 126px;
     background-color: #fff;
     box-shadow: 0 8px 12px 4px rgba(0,0,0, .05);
+    ul {
+        margin: 22px 0 0 0;
+        padding: 0;
+        display: block;
+        // position: absolute;
+    }
+    li {
+        list-style: none;
+        display: inline-block;
+        // margin-right: 68px;
+        vertical-align: middle;
+        &:not(:last-child) {
+            margin-right: 68px;
+            margin-right: 76px;
+        }
+        &.logo {
+            margin-left: 104px;
+            margin-right: 143px;
+        }
+        &.active {
+            border-bottom: 3px solid #ec874b;
+            color: #7a7c7e;
+        }
+    }
+    a {
+        font-size: 16px;
+        line-height: 41px;
+        letter-spacing: .48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.tagline {
+    display: inline-block;
+    padding-top: 8px;
+    color: #d7e0ef;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.social {
+    display: inline-block;
+    margin: 0;
+    right: 0;
+    position: absolute;
+    padding-top: 8px;
+    li {
+        display: inline-block;
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
 }
